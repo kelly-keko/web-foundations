@@ -12,6 +12,8 @@ body {
 }
 
 section {
+    display: flex;
+    flex-direction: column;
     background: #ffffff;
     margin: 20px;
     padding: 20px;
@@ -19,6 +21,9 @@ section {
 }
 
 header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     background: #222;
     color: #fff;
     padding: 20px;
@@ -27,7 +32,8 @@ header {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 15px;
+    justify-content: flex-start;
+    gap: 20px;
 }
 
 nav a {
@@ -42,4 +48,15 @@ h1, h2 {
 
 p {
     margin-bottom: 10px;
+}
+
+main{
+    max-width: ;
+    margin: auto;
+}
+
+#projects ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
